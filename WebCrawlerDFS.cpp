@@ -1,4 +1,3 @@
-
 #include<iostream>
 #include<bits/stdc++.h>
 #include<thread>
@@ -22,6 +21,7 @@ class HtmlParser
             urls.push_back("linkedin.com");
             urls.push_back("instagram.com");
             urls.push_back("google.com");
+            urls.push_back("chatgpt.com");
         }
         return urls;
     }
