@@ -48,10 +48,10 @@ class MultiThreadedWebCrawler
         lock.unlock();
 
         vector<string> urls = htmlParser->getUrls(url);
-        vector<thread> threads;
+        vector<thread> threads; // for n number of urls in the worst case we can have n number of threads to crawl those urls in parallel
 
         for(auto node : urls)
-        {
+        { 
             if(visited[node] != 1)
             {
                 threads.emplace_back(thread(&MultiThreadedWebCrawler::executeDfs, this, node, htmlParser));
