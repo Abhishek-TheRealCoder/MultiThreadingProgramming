@@ -1,0 +1,54 @@
+Core (in a laptop CPU) = a small processing unit inside the processor that can run tasks.
+
+Simple idea:
+1 core = 1 worker 👨
+More cores = more workers working at the same time
+Example:
+Dual-core (2 cores) → can handle 2 tasks simultaneously
+Quad-core (4 cores) → smoother multitasking
+8 cores+ → great for gaming, coding, heavy apps
+Why it matters:
+More cores → better multitasking
+Apps like coding tools, browsers, editing software run faster
+Less lag when using many apps together
+
+
+Context Switching = when the CPU switches from one task to another.
+
+Simple idea:
+Think of 1 core like a worker:
+It can’t do 2 things at the exact same time
+So it quickly switches between tasks
+Example:
+
+You have:
+
+Chrome 🌐
+VS Code 💻
+Music 🎧
+
+The CPU does:
+
+work on Chrome → switch → VS Code → switch → Music → repeat
+
+This happens so fast that it looks like everything runs together.
+
+Why it matters:
+Allows multitasking
+But too much switching = slower performance (overhead)
+
+
+
+
+Concurrency = handling multiple tasks at the same time (logically).
+
+Simple idea:
+Even with 1 core, CPU can:
+switch between tasks very fast (context switching)
+so it feels like things run together
+
+
+
+
+
+Process = a program in execution is a process.
